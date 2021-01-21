@@ -1,0 +1,139 @@
+.header{
+    background-image: url(BG2.jpg);
+    border: solid;
+    color: rgb(77, 228, 109);
+    font-family: cursive;
+    text-align: center;
+} 
+
+.meanu a{
+        background-color: rgb(255, 174, 0);
+        display:flex;
+        justify-content:space-evenly;
+        border: solid;
+        font-family: cursive;
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    color: rgb(255, 238, 2);
+}
+
+.Y{
+    background-image: url(BG3.jpg);
+    color: rgb(248, 248, 248);
+    border: solid;
+    font-family: cursive;
+    text-align: center;
+    
+}
+ 
+.t{
+    color: rgb(3, 3, 3);
+    border: solid ;
+    background-image: url(BG8.jpg);
+    font-family: cursive;
+    text-align: center;
+}
+
+.center {
+    width: 30%;
+    
+  }
+
+  .meanu1{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.b{
+    font-family: cursive;
+    text-align: center;
+}
+
+.a{
+    border:solid;
+}
+
+.c{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.d{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.e{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+.f{
+    font-family: cursive;
+    text-align: center;
+    color: azure;
+}
+
+.G{
+    background-image:url(BG19.jpg);
+}
+
+.h{
+    border: solid;
+    background-image:url(BG8.jpg) ;
+    color: beige;
+}
+
+.i{
+    font-family: cursive;
+    text-align: center;
+    color: rgb(59, 48, 219);
+}
+
+.j{
+    font-family: cursive;
+}
+
+
+.item{
+    position: relative;
+
+}
+
+.item h4{
+    position: absolute;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover h4{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity: 0.3;
+  
+}
+
+
